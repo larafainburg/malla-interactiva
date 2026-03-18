@@ -1,0 +1,55 @@
+{
+  "s1": [
+    ["Introducción al Pensamiento Computacional", "I111", 0, 0, "I", [], "A"],
+    ["Economia 1", "E010", 0, 0, "E", [], "A"],
+    ["Fundamentos de Contabilidad", "A024", 0, 0, "A", [], "A"],
+    ["Introduccion al Razonamiento Matematico", "C029", 0, 0, "C", [], "A"]
+  ],
+  "s2": [
+    ["Fundamentos de Administración en Inglés", "A017", 0, 0, "A", [], "P"],
+    ["Filosofia", "H010", 0, 0, "H", [], "A"],
+    ["Historia", "H203", 0, 0, "H", [], "A"],
+    ["Matematica 1", "C030", 0, 0, "C", ["C029"], "A"],
+    ["Finanzas 1", "A354", 0, 0, "A", ["C029"], "A"]
+  ],
+  "s3": [
+    ["Matematica 2", "C031", 0, 0, "C", ["C030"], "A"],
+    ["Escritura y Oratoria", "H209", 0, 0, "H", [], "A"],
+    ["Programacion Aplicada a las Finanzas", "F210", 0, 0, "F", ["C030", "I111", "A354"], "I"],
+    ["Estadistica 1", "C038", 0, 0, "C", ["C030"], "A"],
+    ["Derechos Fundamentales", "H063", 0, 0, "H", [], "A"]
+  ],
+  "s4": [
+    ["Finanzas 2", "A454", 0, 0, "A", ["A354", "A024"], "A"],
+    ["Matematica 3", "C032", 0, 0, "C", ["C031"], "A"],
+    ["Macroeconomia 1 Finanzas", "E022", 0, 0, "E", ["E010", "C030"], "P"],
+    ["Microeconomia 1", "E016", 0, 0, "E", ["C031", "E010"], "A"],
+    ["Ciencias", "C094", 0, 0, "C", [], "A"]
+  ],
+  "s5": [
+    ["Mercado de Capitales", "A451", 0, 0, "A", ["F210", "A454"], "I"],
+    ["Politica Macroeconomia", "F311", 0, 0, "F", ["E016", "E022", "A454"], "I"],
+    ["Derivados", "F324", 0, 0, "F", ["A454"], "I"],
+    ["Estadistica 2", "C138", 0, 0, "C", ["C038"], "A"]
+  ],
+  "s6": [
+    ["Matemática Aplicada a Problemas Financieros", "F310", 0, 0, "F", ["C032", "F324", "F210", "C138"], "P"],
+    ["Finanzas Computacionales", "F322", 0, 0, "F", ["C032", "C138", "A451", "F210"], "P"],
+    ["Finanzas Internacionales", "F320", 0, 0, "F", ["A451"], "P"],
+    ["Econometria", "E137", 0, 0, "E", ["C138"], "A"]
+  ],
+  "s7": [
+    ["Instrumentos Financieros", "F400", 0, 0, "F", ["F324", "A451"], "I"],
+    ["Pronósticos Financieros", "F402", 0, 0, "F", ["E137", "A451"], "I"],
+    ["Finanzas Corporativas Avanzadas", "F405", 0, 0, "F", ["A454", "E137", "F324"], "I"],
+    ["Ingeniería Financiera", "F414", 0, 0, "F", ["F310", "F324", "A451", "F320"], "I"],
+    ["Trabajo de Graduacion", "A199", 0, 0, "K", [], "A"]
+  ],
+  "s8": [
+    ["Portfolio Management y Análisis Técnico", "F408", 0, 0, "F", ["F400", "F405", "F402"], "P"],
+    ["Administración de Riesgos Financieros", "F410", 0, 0, "F", ["F400", "F402", "F414", "F320"], "P"],
+    ["Banca de Inversión", "F412", 0, 0, "F", ["F400", "F402", "F405"], "P"],
+    ["Administración y Gestión Bancaria", "F406", 0, 0, "F", ["F405"], "P"],
+    ["Trabajo de Graduacion", "E199", 0, 0, "K", [], "A"]
+  ]
+}

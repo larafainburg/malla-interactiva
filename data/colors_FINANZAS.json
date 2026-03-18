@@ -1,0 +1,9 @@
+{
+  "I": ["#1565C0", "Informática"],
+  "E": ["#2E7D32", "Economía"],
+  "A": ["#6A1B9A", "Administración"],
+  "C": ["#00838F", "Ciencias y Matemáticas"],
+  "H": ["#F57F17", "Humanidades"],
+  "F": ["#C62828", "Finanzas"],
+  "K": ["#37474F", "Trabajo de Graduación"]
+}
